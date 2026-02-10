@@ -1,0 +1,4 @@
+1. git init
+2. git status(files are in red colour)
+3. gid add .
+4. git status (now files are green)
