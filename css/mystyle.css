@@ -1,0 +1,9 @@
+h2{
+    color: green;
+    background-color: rgb(111, 0, 255);
+    text-align: center;
+}
+p:first-child{
+    color: chartreuse;
+}
+p::first o

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Form Practice</h1>
+    <form action="" method="get" oninput="result.value=Number(a.value)+Number(b.value)">
+        <input type="date" name="dateid" id="dateid"><br>
+        <input type="time" name="timeid" id="timeid"><br>
+        <input type="range" name="rangeid" id="rangeid"><br>
+        <input type="url" name="urlid" id="urlid" placeholder="Enter URL"><br>
+        <input type="tel" name="tel" id="telid" placeholder="Telephone"><br>
+        <label for="uname">Enter username:</label>
+        <input type="text" id="uname" name="username" value="Evara" size="30" maxlenght="5" placeholder="Enter username"><br>
+        <label for="uname">Enter password:</label>
+        <input type="password" id="uname" name="password" autofocus><br>
+        <label for="uname">Enter Email:</label>
+        <input type="email" id="uname" name="email"><br>
+        <label for="Courses">Courses:</label>
+        <input list="courses">
+        <datalist id="courses">
+            <option>btech</option>
+            <option>mba</option>
+            <option>bca</option>
+            <option>bba</option>
+        </datalist><br>
+        <p>Addition of two numbers</p>
+        <input type="number" name="a" id="a" value="0">+<input type="number" name="b" id="b" value="0">=
+        <output name="result"></output>
+        <input type="search" name="search" id="searchid"><br>
+        <input type="number" name="numberid" id="numberid" min="4" max="22" step="3"><br>
+        <p>Choose Course</p>
+        <!-- <label> -->
+        <input type="radio" name="select program" value="Btech">Btech
+        <label for="Btech"></label>
+        <label><input type="radio" name="select program" value="BCA">BCA</label>
+        <label><input type="radio" name="select program" value="MBA">MBA</label>
+        <p>Choose hobbies</p>
+        <label>
+            <input type="checkbox" name="Hobbies" value="Badminton">Badminton
+        </label>
+        <label><input type="checkbox" name="Hobbies" value="linguist">linguist</label><br>
+        <p>Write review</p>
+        <textarea name="review" id="review" rows="10" cols="80">Good</textarea><br>
+        <p>Choose State</p>
+        <select name="'state" id="state" size="3" multiple>
+            <option value="punjab">Punjab</option>
+            <option value="hjvykyd" selected>Nagaland</option>
+            <option value="Paris">Edinburgh</option>
+            <option value="Paris">Nepal</option>
+            <option value="Paris">Assam</option>
+            <option value="Paris">Gohpur</option>
+        </select><br>
+        <label for="filefeild">Select file</label><br>
+        <input type="file" name="filefeild" id="filefeild" accept="application/pdf">
+        <br>
+        <input type="submit" name="submitted" id="submitted"><br>
+        <input type="reset" name="resetted" id="restett"><br>
+        <input type="image" name="imagebtn" id="imagebtn" src="button.png" width="100" height="100">
+        <input type="color" name="fav">
+    </form>
+    
+</body>
+</html>

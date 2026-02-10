@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Grid Based Webpage</title>
+
+<style>
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+
+body {
+  padding-top: 70px; /* space for fixed navbar */
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #333;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  text-align: center;
+  padding: 20px;
+  z-index: 1000;
+}
+
+.navbar div {
+  cursor: pointer;
+}
+
+
+.image-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 40px;
+}
+
+.image-section img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+
+.video-section {
+  display: grid;
+  place-items: center;
+  padding: 40px;
+  background: #f2f2f2;
+}
+
+.video-section video {
+  width: 60%;
+}
+
+.text-section {
+  padding: 40px;
+  line-height: 1.8;
+}
+
+
+.author-section {
+  display: grid;
+  place-items: center;
+  background: #222;
+  color: white;
+  padding: 40px;
+}
+
+.author-box {
+  text-align: center;
+}
+</style>
+
+</head>
+<body>
+
+
+<div class="navbar">
+  <div>Home</div>
+  <div>Gallery</div>
+  <div>Video</div>
+  <div>Contact</div>
+</div>
+
+
+<section class="image-section">
+  <img src="button.png">
+  <img src="pngtree-harry-potter-a-stack-of-books-png-image_16026555.png">
+  <img src="https://picsum.photos/400/300?3">
+</section>
+
+
+<section class="video-section">
+  <video controls>
+    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+    Your browser does not support video.
+  </video>
+</section>
+
+
+<section class="text-section">
+  <h2>About This Website</h2>
+  <p>
+    This webpage is completely designed using CSS Grid. The navigation bar
+    is fixed at the top and remains visible while scrolling. Grid layout
+    makes the design responsive, clean, and easy to manage. This structure
+    is commonly used in modern web applications and portfolios.
+  </p>
+</section>
+
+
+<section class="author-section">
+  <div class="author-box">
+    <h3>Author Details</h3>
+    <p>Name: Chandani Newar</p>
+    <p>Email: chandani@example.com</p>
+    <p>Location: India</p>
+  </div>
+</section>
+
+</body>
+</html>

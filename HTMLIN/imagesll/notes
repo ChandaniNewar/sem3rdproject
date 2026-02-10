@@ -1,0 +1,22 @@
+Combinators
+div,p groups of selectors
+div p Descendant Combinators
+div > p Child Combinators
+div + p Adjacent sibling Combinators immediate next 
+p ~ ul General sibling
+child  fromm all elementd 
+ type keyword selection will be done from common elements eg <p></p>
+ first Child selects every p 
+ first of child
+ last childlast of child
+ inline is the highest priority
+ id
+ class
+ elemnet 
+ universal
+ CSS BOX
+ MARGIN=50PX FOR TOP 40 PX FOR RIGHT 30PX FOR BORDER 10PX FOR LEFT
+ MARGIN-LEFT=50PX 40PX 10PX FOR TOP RIGHTLEFT BOTTOM RESPECTIVELY
+ tailwind 
+ CND CONTENT DELIVERY NETWORK
+ TAGNAME SCRIPT 

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css positioning</title>
+    <style>
+        #rel{
+            border: 6px solid grey;
+            width: 200px;
+            height: 200px;
+            position: relative;
+        }
+        #abs:hover{
+
+            position: absolute;
+            top: 10px;
+            right: 40px;
+        }
+        #abs1{
+            bottom-right: 30px;
+        }
+        body{
+            margin: 0px;
+        }
+        #div1{
+            background-color: blanchedalmond;
+            height: 100vh;
+        }
+        #div2{
+            background-color: blue;
+            height: 100vh;
+        }
+        #div3{
+            background-color: palevioletred;
+            /* height: 100vh; */
+            position: sticky;
+            top: 1px;
+            width: 100%;//calculates screen bit and scrollbar aswell
+        }
+        #div4{
+            background-color: violet;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div id="rel">
+        <div id="abs">Absolute</div>
+        <div id="abs1">absolute</div>
+
+    </div> -->
+    <div id="div1">Div1</div>
+    <div id="div2">div2</div>
+    <div id="div3">Div3</div>
+    <div id="div4">Div4</div>
+    
+</body>
+</html>
